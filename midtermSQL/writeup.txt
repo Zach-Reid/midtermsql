@@ -1,0 +1,3 @@
+The files adhere to 1nf because all of them have a primary key. (movie_id, customer_id, rental_id) No repeating groups are present as well.
+They adhere to 2nf because it is in 1nf, but also has no partial dependencies on keys. All of the non-key parts depend fully on a primary key.
+They are 3nf due to them not having any transitive dependencies. For example, the attributes in Customers depend on customer_id, and Movies has attributes that solely depend on movie_id.
